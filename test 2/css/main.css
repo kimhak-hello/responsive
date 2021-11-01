@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+.col{
+    width: 40%;
+    height: 200px;
+    background: white;
+}
+@media (orientation: portrait){
+    body{
+        background: orange;
+    }
+    .container{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .col{
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+@media (orientation: landscape){
+    body{
+        background: purple;
+    }
+}

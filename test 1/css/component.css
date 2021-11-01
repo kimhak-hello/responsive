@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang&family=Moul&display=swap');
+/* General style */
+body{
+    margin: 0;padding: 0;font-family: sans-serif;
+    font-family: 'Moul', sans-serif;
+}
+
+
+/* Navbar component */
+.navbar{
+    display:flex;
+    list-style: none;
+    margin: 0;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #000;
+}
+.nav-orange{
+    background: orange;
+}
+.nav-orange{
+    color: #fff;
+}
+
+/* container component */
+.container 
+.container-full{
+    padding: 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container-full{
+    width: 100%;
+}
+
+
+/* colum conponent */
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0 10px 0;
+
+}
+.col{
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgb(148, 145, 145);
+    border-radius: 10px;
+}
+.col-12{
+    width: 100%;  
+  
+}
+
+.col-4{
+    width: 32%;
+}
+.col-3{
+    width: 23%;
+}
+.col h1{
+    margin: 0;
+}
